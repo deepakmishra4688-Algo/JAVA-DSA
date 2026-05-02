@@ -23,13 +23,34 @@ public class Loops15 {
 
         //  }
 
-        Scanner in = new Scanner(System.in);
-        System.out.print("Please enter the temp in C: ");
-        float tempC = in.nextFloat();
+        // Scanner in = new Scanner(System.in);
+        // System.out.print("Please enter the temp in C: ");
+        // float tempC = in.nextFloat();
 
 
-        float tempF = (tempC * 9/5) + 32;
-        System.out.println( tempF);
+        // float tempF = (tempC * 9/5) + 32;
+        // System.out.println( tempF);
+
+
+        // multiple if- else statements:
+        int salary = 25400;
+
+        if (salary > 10000) {
+            salary += 2000; // salary = salary +2000
+        } else if (salary > 20000) {
+            salary += 3000;
+
+
+        } else {
+            salary += 1000;
+        }
+
+        System.out.println(salary);
+        
+        
+
+
+
 
 
 
