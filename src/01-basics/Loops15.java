@@ -23,7 +23,8 @@ public class Loops15 {
 
         //  }
 
-        // Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
+
         // System.out.print("Please enter the temp in C: ");
         // float tempC = in.nextFloat();
 
@@ -33,21 +34,81 @@ public class Loops15 {
 
 
         // multiple if- else statements:
-        int salary = 25400;
+        // int salary = 25400;
 
-        if (salary > 10000) {
-            salary += 2000; // salary = salary +2000
-        } else if (salary > 20000) {
-            salary += 3000;
+        // if (salary > 10000) {
+        //     salary += 2000; // salary = salary +2000
+        // } else if (salary > 20000) {
+        //     salary += 3000;
 
 
+        // } else {
+        //     salary += 1000;
+        // }
+
+        // System.out.println(salary);
+        
+    //     int a = in.nextInt();
+    //     int b = in.nextInt();  
+    //     int c = in.nextInt();
+    //      // find the largest of the 3 
+    //      int max = a;
+    //         if (b > max) {
+    //             max = b;
+
+    //         }
+    //         if (c > max) {
+    //             max = c;
+    //         }
+    //         System.out.println(max);
+
+            
+
+
+        
+
+
+
+
+
+
+        
+
+
+        
+    
+    // in.close();
+
+
+    // char ch = in.next().trim().charAt(0);
+    // String word = "hello";
+    // System.out.println(word.charAt(2));
+    // System.out.println(ch);
+
+    char ch = in.next().trim().charAt(0);
+
+        if (ch >= 'a' && ch <= 'z') {
+            System.out.println("Lowercase");
+        } else if (ch >= 'A' && ch <= 'Z') {
+            System.out.println("Uppercase");
         } else {
-            salary += 1000;
+            System.out.println("Not an alphabet");
         }
 
-        System.out.println(salary);
+
+
+  
+     
+
+
+
+
+     
+
+
+
+
         
-        
 
 
 
@@ -55,10 +116,18 @@ public class Loops15 {
 
 
         
+    
+    in.close();
 
 
-        
-    }
+
+     
+
+
+
+
+        }
+
 
     
 }
