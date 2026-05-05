@@ -85,15 +85,40 @@ public class Loops15 {
     // System.out.println(word.charAt(2));
     // System.out.println(ch);
 
-    char ch = in.next().trim().charAt(0);
+    // char ch = in.next().trim().charAt(0);
 
-        if (ch >= 'a' && ch <= 'z') {
-            System.out.println("Lowercase");
-        } else if (ch >= 'A' && ch <= 'Z') {
-            System.out.println("Uppercase");
-        } else {
-            System.out.println("Not an alphabet");
+        // if (ch >= 'a' && ch <= 'z') {
+        //     System.out.println("Lowercase");
+        // } else if (ch >= 'A' && ch <= 'Z') {
+        //     System.out.println("Uppercase");
+        // } else {
+        //     System.out.println("Not an alphabet");
+        // }
+
+
+        // fabbonacci number:
+        //in this sequence, each number is the sum of the two preceding ones, usually starting with 0 and 1.
+        
+        //find the nth fabbonacci number:
+        int n = in.nextInt();
+        int a = 0; // previous
+        int b = 1; // current
+        int count = 2; // count of numbers generated so far
+
+        while (count <= n) {
+            int temp = b; // store current value before updating
+            b = b + a; // update current to the sum of previous and current
+            a = temp; // update previous to the old current value
+            count++; // increment count
         }
+        System.out.println(b);
+
+
+    
+            
+
+        
+        
 
 
 
